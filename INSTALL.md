@@ -7,3 +7,5 @@ My name is Jeremie Guerchon and I pulled this file and now editing it with 1 or 
 My name is Vincent Bryant Benesen and I'm the last who pulled this file and now I'm editing it with 1 or 2 sentences. I'll push the changes to this file.
 
 Ali pushed this file with some edits but I did not pull it. Trying to create a conlfict.
+
+Hi this is Ali and doing changes in this file for the conflicts part of laboratory 12.
