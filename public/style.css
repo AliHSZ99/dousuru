@@ -1,0 +1,68 @@
+#main-page-body {
+    font-family: 'Sulphur Point', sans-serif;
+    background-size: 101.5%;
+    background-image: url("imgss/bgImg.png");
+}
+
+#main-page-wrapper {
+    position: absolute;
+    top: 110px;
+    left: 460px;
+    background: rgb(0, 0, 0, 0.6);
+    width: 550px;
+    height: 615px;
+}
+
+#main-page-wrapper  h1, p {
+    color: white;
+    opacity: 1;
+    text-align: center;
+}
+
+#main-page-wrapper p {
+    font-size: 30px;
+    margin: 25px;
+}
+
+#pb {
+    position: relative;
+    font-family: 'Sulphur Point', sans-serif;
+    color: white;
+    font-size: xx-large;
+    opacity: 1 !important;
+    top: 3px;
+    left: 10px;
+}
+
+#ca {
+    position: absolute;
+    font-family: 'Sulphur Point', sans-serif;
+    color: white;
+    font-size: xx-large;
+    opacity: 1 !important;
+    top: 3px;
+    left: 350px;
+}
+
+#mh {
+    position: absolute;
+    font-family: 'Sulphur Point', sans-serif;
+    color: white;
+    font-size: xx-large;
+    opacity: 1 !important;
+    top: 3px;
+    left: 600px;
+}
+
+
+#us {
+    position: absolute;
+    font-family: 'Sulphur Point', sans-serif;
+    color: white;
+    font-size: xx-large;
+    opacity: 1 !important;
+    top: 3px;
+    left: 1700px;
+}
+
+
