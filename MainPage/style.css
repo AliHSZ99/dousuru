@@ -1,0 +1,25 @@
+#main-page-body {
+    font-family: 'Sulphur Point', sans-serif;
+    background-size: 101.5%;
+    background-image: url("imgs/bgImg.png");
+}
+
+#main-page-wrapper {
+    position: absolute;
+    top: 110px;
+    left: 460px;
+    background: rgb(0, 0, 0, 0.6);
+    width: 550px;
+    height: 615px;
+}
+
+#main-page-wrapper  h1, p {
+    color: white;
+    opacity: 1;
+    text-align: center;
+}
+
+#main-page-wrapper p {
+    font-size: 30px;
+    margin: 25px;
+}
