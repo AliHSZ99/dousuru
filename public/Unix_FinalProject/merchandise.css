@@ -1,5 +1,5 @@
 body {
-    background: url(imgs/bgImg.png) no-repeat center center fixed; 
+    background: url(bgImg.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -146,48 +146,4 @@ h2{
   #purchasebutton > img{
     width: 300px;
   }
-
-  #pb {
-    position: relative;
-    font-family: 'Sulphur Point', sans-serif;
-    color: white;
-    font-size: xx-large;
-    opacity: 1 !important;
-    top: 3px;
-    left: 10px;
-}
-
-#ca {
-    position: absolute;
-    font-family: 'Sulphur Point', sans-serif;
-    color: white;
-    font-size: xx-large;
-    opacity: 1 !important;
-    top: 3px;
-    left: 350px;
-}
-
-#mh {
-    position: absolute;
-    font-family: 'Sulphur Point', sans-serif;
-    color: white;
-    font-size: xx-large;
-    opacity: 1 !important;
-    top: 3px;
-    left: 600px;
-}
-
-
-#us {
-    position: absolute;
-    font-family: 'Sulphur Point', sans-serif;
-    color: white;
-    font-size: xx-large;
-    opacity: 1 !important;
-    top: 3px;
-    left: 1700px;
-}
-
-
-
 

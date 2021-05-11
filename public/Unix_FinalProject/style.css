@@ -1,7 +1,9 @@
 #main-page-body {
     font-family: 'Sulphur Point', sans-serif;
     background-size: 101.5%;
-    background-image: url("imgss/bgImg.png");
+    background-image: url("imgs/bgImg.png");
+    width:1920px;
+    height:1080px;
 }
 
 #main-page-wrapper {
@@ -63,6 +65,14 @@
     opacity: 1 !important;
     top: 3px;
     left: 1700px;
+}
+
+.rectangle {
+    position: absolute;
+    height: 50px;
+    width: 5000px;
+    background-color: black;
+    opacity: 0.8;
 }
 
 
