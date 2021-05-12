@@ -10,10 +10,10 @@
 #main-page-wrapper {
     position: absolute;
     top: 110px;
-    left: 460px;
+    left: 700px;
     background: rgb(0, 0, 0, 0.6);
     width: 550px;
-    height: 615px;
+    height: 700px;
 }
 
 #main-page-wrapper  h1, p {

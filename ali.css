@@ -4,13 +4,14 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    font-family: Sulphur Point ;
+    font-family: Sulphur Point;
+    overflow: hidden;
 }
 
 #container {
     position: absolute;
-    top: 110px;
-    left: 460px;
+    top: 150px;
+    left: 700px;
     background: rgb(0, 0, 0, 0.6);
     width: 550px;
     height: 615px;
@@ -33,7 +34,7 @@
 
 #project-img {
     position: absolute;
-    top: 380px;
+    top: 390px;
     left: 125px;
     width: 300px;
 }
@@ -57,8 +58,8 @@
 
 #buttons {
     position: absolute;
-    top: 250px;
-    left: 1000px;
+    top: 270px;
+    left: 1250px;
 }
 
 ul {

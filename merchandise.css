@@ -4,7 +4,17 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  overflow: hidden;
 }
+
+#thewholething {
+  width: 1000px;
+  height: 700px;
+  position: absolute;
+  left: 250px;
+  top: 50px;
+}
+
 
 #merchimg{
     width: 1000px;

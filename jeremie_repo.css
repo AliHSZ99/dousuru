@@ -4,13 +4,13 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    font-family: Sulphur Point;
     overflow: hidden;
-    font-family: Sulphur Point ;
 }
 
 #wrapper {
     position: absolute;
-    top: 140px;
+    top: 110px;
     left: 700px;
     background: rgb(0, 0, 0, 0.6);
     width: 550px;
@@ -27,17 +27,16 @@ body {
 
 #description {
     color: white;
-    font-size: 19px;
+    font-size: 22px;
     text-align: center;
     position: relative;
     margin: 10px;
-    margin-top: 1px;
 }
 
 #link {
     position: absolute;
     top: 565px;
-    right: 195px;
+    right: 200px;
 
     font-size: 20px;
     text-decoration: none;
@@ -51,8 +50,8 @@ body {
 
 .glow {
     font-size: 20px;
-    margin-top: -10px;
     color: #fff;
+    text-align: center;
     -webkit-animation: glow 1s ease-in-out infinite alternate;
     -moz-animation: glow 1s ease-in-out infinite alternate;
     animation: glow 1s ease-in-out infinite alternate;
@@ -65,4 +64,13 @@ body {
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
     }
+  }
+
+  #text {
+      font-size: large;
+  }
+
+  #wbjg {
+      margin-top: 20px;
+      width: 500px;
   }

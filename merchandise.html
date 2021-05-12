@@ -1,11 +1,16 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="merchandise.css">
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Signika+Negative"/>
-        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shrikhand"/>
-         <link rel="stylesheet" href="/public/build/tailwind.css">
-    </head>
-    <body>
+
+<head>
+    <link rel="stylesheet" href="merchandise.css">
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Signika+Negative" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Shrikhand" />
+    <link rel="stylesheet" href="rectangle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <div id="thewholething">
         <img id="merchimg" src="imgs/merchsweater.png">
         <h2>Problem Solvers Sweater</h2>
         <h2 id="price">34.99$</h2>
@@ -14,11 +19,12 @@
         <h3 id="third-text" class="glow">PROBLEM SOLVERS</h3>
 
         <div id="wrapper">
-            <p>SIZE:<br> <button>xxs</button> &nbsp; &nbsp; <button>xs</button> &nbsp; &nbsp; <button>s</button>  &nbsp; &nbsp; <button>m</button> &nbsp; &nbsp; <button>l</button>
+            <p>SIZE:<br> <button>xxs</button> &nbsp; &nbsp; <button>xs</button> &nbsp; &nbsp; <button>s</button> &nbsp;
+                &nbsp; <button>m</button> &nbsp; &nbsp; <button>l</button>
             </p>
             <br>
             <p>
-                QUANTITY:  
+                QUANTITY:
                 <br>
                 <select>
                     <option>1</option>
@@ -31,15 +37,35 @@
                     <option>8</option>
                     <option>9</option>
                     <option>10</option>
-                </select> 
-             </p>
-             <div id="color">
+                </select>
+            </p>
+            <div id="color">
                 <p>COLOUR:
                     <div id="bluebox"></div>
                 </p>
             </div>
             <button id="purchasebutton"><img src="imgs/purchaseButton.png" alt=""></button>
         </div>
-        
-    </body>
+    </div>
+    <nav>
+        <div class="rectangle">
+            <a id="ca" href="">CAFE APP</a>
+            <a id="pb">PROBLEM SOLVERS</a>
+            <a id="mh" href="">MERCHANDISE</a>
+            <a id="us" href="">WHO WE ARE</a>
+            <div class="dropdown">
+                <button class="dropbtn">REPOSITORIES
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">GROUP</a>
+                    <a href="#">ALI</a>
+                    <a href="#">VINCENT</a>
+                    <a href="#">JEREMIE</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+
 </html>
