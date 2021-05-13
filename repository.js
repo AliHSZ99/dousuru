@@ -13,7 +13,7 @@ $(document).ready(function(){
         $("#projectDescriptionBox > p").html("An exciting game for everyone. People can play with their family, "+
         "friends and even random strangers that are willing to compete. Robotic bugs of all kinds are put inside different mazes and"+
         " have to break through walls to get power ups. Players have to tactically move around the map picking up these power ups to defeat other players and move on to the next round of the first to three.");
-        $("#projectImg").attr("src", "imgs/game.png");
+        $("#projectImg").attr("src", "https://i.imgur.com/pelsVjq.png");
         $("#downloadableFile").attr("href", "GameProject.zip");
         $("#projectTitle").css("left", "260px")
     });
