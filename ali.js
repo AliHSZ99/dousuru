@@ -13,7 +13,7 @@ $(document).ready(function(){
         $("#title").html("Ali Zoubeidi's Website");
         $("#description").html("This is the first website I have ever created using only HTML and CSS. It is a site called Ali Zoubeidi's " +
         "website and it is all about me. This website includes facts about my life and my professional goals. Download to find out more!");
-        $("#project-img").attr("src", "imgs/ali'swebsite.png");
+        $("#project-img").attr("src", "https://i.imgur.com/yzuzGOX.png");
         $("#downloadable-file").attr("href", "AliZoubeidiWebsite.zip");
     });
 
