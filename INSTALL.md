@@ -48,3 +48,10 @@ STEPS FOR GENERATING A WEBSITE USING JEKYLL:
 -------------------------------------------------------------------------------------------------
 In this project, we also implemented HTML, CSS, Javascript and JQuery. We used this 4 languages in order to design our own website. 
 
+-------------------------------------------------------------------------------------------------
+Creating our own domain.
+
+Steps:
+1. For creating a domain, first you need to buy the name. There are various websites where you can buy a domain. In our case, we bought our domain in a website called namecheap.com. 
+2. After buying the domain, you need to link into you website server. To do that, you need to sign in to Digital Ocean. On the left navigation bar, search for the page called Networking. This page manages all the traffic of your application with private networking, private filtering, and load balancing. When you open this page, you will see a textbox that says add a domain. Enter you domain name and then click add domain.  
+3. Done! You have created you domain for your website.
