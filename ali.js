@@ -1,5 +1,9 @@
 $(document).ready(function(){
 
+    if (document.cookie != "true") {
+        return window.location.href = "login.html";
+    }
+
     $("#b1").click(function(){
         $("#title").html("Vanier School System JAVA GUI");
         $("#description").html("The Vanier School system was my final project for the Programming 2 course. It was done using JAVA Swing. Its " +

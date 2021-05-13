@@ -1,4 +1,8 @@
 $(document).ready(function(){
+
+    if (document.cookie != "true") {
+        return window.location.href = "login.html";
+    }
     
     $("#button1").click(function(){
         $("#projectTitle").html("ATM MACHINE");
