@@ -4,7 +4,7 @@ $(document).ready(function(){
         $("#projectTitle").html("ATM MACHINE");
         $("#projectDescriptionBox > p").html("This ATM MACHINE is our very first project together.");
         $("img").attr("src", "imgs/jav.png");
-        $("#downloadableFile").attr("href", "ATM.zip");
+        $("#downloadableFile").attr("href", "projs/ATM.zip");
         $("#projectTitle").css("left", "280px")
     });
 
@@ -14,7 +14,7 @@ $(document).ready(function(){
         "friends and even random strangers that are willing to compete. Robotic bugs of all kinds are put inside different mazes and"+
         " have to break through walls to get power ups. Players have to tactically move around the map picking up these power ups to defeat other players and move on to the next round of the first to three.");
         $("#projectImg").attr("src", "https://i.imgur.com/pelsVjq.png");
-        $("#downloadableFile").attr("href", "GameProject.zip");
+        $("#downloadableFile").attr("href", "projs/GameProject.zip");
         $("#projectTitle").css("left", "260px")
     });
 
@@ -25,7 +25,7 @@ $(document).ready(function(){
         + "We created tables such as Patient, Appointment, Dentist, Visit, VisitDetails, Billing, and Patient_Payment. " 
         + "After doing so, we populated them  and performed 6 specific queries on them. Finally, we created a report "
         + "containing our database schema, normalization of our tables, and the queries results.");
-        $("#downloadableFile").attr("href", "FinalProjectDB.zip");
+        $("#downloadableFile").attr("href", "projs/FinalProjectDB.zip");
         $("#projectTitle").css("left", "200px")
     });
 
@@ -34,27 +34,17 @@ $(document).ready(function(){
         $("#projectDescriptionBox > p").html("In this project, we are responsilbe for building a CAD/CAM PC "+
         ". A CAD/CAM PC is a software used to design and manufacture prototypes, finished products, and production runs of products."); 
         $("img").attr("src", "imgs/cad.png");
-        $("#downloadableFile").attr("href", "cad.pptx");
+        $("#downloadableFile").attr("href", "projs/cad.pptx");
         $("#projectTitle").css("left", "150px")
     });
 
     $("#button5").click(function(){
-        $("#projectTitle").html("Problem Solver's Café");
-        $("#projectDescriptionBox > p").html("The Problem Solver’s Restaurant is a GUI Application that is used to order food. This restaurant app is designed to be a " +
+        $("#projectTitle").html("Problem Solver's Cafe");
+        $("#projectDescriptionBox > p").html("The Problem Solvers Restaurant is a GUI Application that is used to order food. This restaurant app is designed to be a " +
          "user-friendly application that will allow users to order great food from a specific restaurant. " +
          "It provides real transaction features such as selecting different kinds of items and getting rewards for being a loyal customer."); 
         $("img").attr("src", "imgs/cafe.png");
-        $("#downloadableFile").attr("href", "RestaurantApplication-main.zip");
+        $("#downloadableFile").attr("href", "projs/RestaurantApplication-main.zip");
         $("#projectTitle").css("left", "100px")
     });
 });
-
-// function onload() {
-// }
-
-// function button2Clicked() {
-//     var image = document.getElementById("projectImg");
-//     image.setAttribute("src", "imgs/game.png");
-// }
-
-// function button
