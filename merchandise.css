@@ -110,7 +110,7 @@ h2{
 
   #wrapper > p > button{
     background-color: rgb(0,0,0,0.1);
-    border-color: white ;
+    border-color: white;
     color: white;
     width: 40px;
     height: 40px;
@@ -156,3 +156,10 @@ h2{
   #purchasebutton > img{
     width: 300px;
   }
+
+  #source {
+    position: absolute;
+    left: 532px;
+    top: 610px;
+    font-size: 15px;
+    }
